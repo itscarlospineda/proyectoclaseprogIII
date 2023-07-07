@@ -38,8 +38,7 @@ app.listen(port, function () {
 console.log(`Puerto ${port}!`);
 }); 
 
-//middlewares
-app.use(morgan('dev'));
+app.use(morgan('dev')); //middlewares
 var Connection = require('tedious').Connection;  //Invocando librería tedious
     var config = {  
         server: 'LAPTOP-0L3I744F\SQLEXPRESS',  
