@@ -18,6 +18,17 @@ const productoRoutes = require('./Routes/producto');
 const tipoproductoRoutes = require('./Routes/tipoproducto');
 const formapagoRoutes = require('./Routes/formapago');
 
+const empresaRRoutes = require('./RRoutes/empresaR');
+const proveedorRRoutes = require('./RRoutes/proveedorR');
+const sucursalesRRoutes = require('./RRoutes/sucursalesR');
+const areas_trabajoRRoutes = require('./RRoutes/areas_trabajoR');
+const clientesRRoutes = require('./RRoutes/clientesR');
+const tipousuarioRRoutes = require('./RRoutes/tipousuarioR');
+const usuarioRRoutes = require('./RRoutes/usuarioR');
+const productoRRoutes = require('./RRoutes/productoR');
+const tipoproductoRRoutes = require('./RRoutes/tipoproductoR');
+const formapagoRRoutes = require('./RRoutes/formapagoR');
+//================================================================================
 
 app.get("/", function (req, res) {
 res.send("Bienvenido");

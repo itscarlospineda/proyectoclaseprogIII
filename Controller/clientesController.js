@@ -23,7 +23,7 @@ const data = req.body;
 };
 
 
-//Funcion para listar registros
+//Funcion para editar registros
 controller.edit = (req, res) => {
 const {num_clie}= req.params;
     req.getConnection((err,conn) =>{

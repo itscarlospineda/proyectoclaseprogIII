@@ -23,11 +23,11 @@ const data = req.body;
 };
 
 
-//Funcion para listar registros
+//Funcion para editar registros
 controller.edit = (req, res) => {
 const {idfpago}= req.params;
     req.getConnection((err,conn) =>{
-        conn.query('select *from formapago where idfpago=?', [idfpago], (err,formapago) => {
+        conn.query('select * from formapago where idfpago=?', [idfpago], (err,formapago) => {
             res.render('formapago_edit', {
             data: formapago[0]
             } );

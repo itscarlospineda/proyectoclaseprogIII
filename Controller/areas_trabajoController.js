@@ -23,7 +23,7 @@ const data = req.body;
 };
 
 
-//Funcion para listar registros
+//Funcion para editar registros
 controller.edit = (req, res) => {
 const {idarea}= req.params;
     req.getConnection((err,conn) =>{
