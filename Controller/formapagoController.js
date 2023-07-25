@@ -6,10 +6,13 @@ controller.list = (req, res) => {
         conn.query('Select * from formapago',(err,formapago) =>{
             if(err){
                 res.json(err);
+            }  else{
+                res.render('formapago.ejs');
             }
         });
     });
 };
+
 
 //Funcion para guardar registros
 controller.save = (req,res) =>{

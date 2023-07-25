@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRO</title>
+    <link rel="stylesheet" href="https://bootswatch.com/4/lumen/bootstrap.min.css">
+ 
+</head>
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a href="/" class="navbar-brand">REGISTRO DE EMPRESAS</a>
+    </nav>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-5">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="/add" method="post">
+                            <div class="form-group">
+                                <input type="text" name="idempresa" placeholder="Código" class="form-control">          
+                    
+                            </div> 
+
+                            <div class="form-group">
+                                <input type="text" name="nombre" placeholder="Nombre" class="form-control">          
+                    
+                            </div> 
+
+                            <div class="form-group">
+                                <input type="text" name="direccion" placeholder="Dirección" class="form-control">          
+                    
+                            </div> 
+                            
+                            <div class="form-group">
+                                <input type="text" name="rtn" placeholder="RTN" class="form-control">          
+                    
+                            </div> 
+
+                            <div class="form-group">
+                                <input type="text" name="telefono" placeholder="Teléfono" class="form-control">          
+                    
+                            </div> 
+
+                            <div class="form-group">
+                                <input type="text" name="correo" placeholder="Correo" class="form-control">          
+                    
+                            </div> 
+
+                            <div class="form-group">
+                                <input type="text" name="contacto" placeholder="Contacto" class="form-control">          
+                    
+                            </div> 
+
+                            <div class="form-group">
+                                <input type="text" name="fecha_creacion" placeholder="Fecha de Creación" class="form-control">          
+                    
+                            </div> 
+
+                            <div class="form-group">
+                                <input type="text" name="estado" placeholder="Estado" class="form-control">          
+
+                            </div>  
+                            </div>
+                            <button type="submit" class="btn btn-primary">
+                                Agregar
+                            </button>
+                        </form>
+                    </div>
+
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-md-7">
+                <table class="table table-borbered table-hover">
+                    <thead>
+                        <tr>
+                            <th>IDEMPRESA</th>
+                            <th>NOMBRE</th>
+                            <th>DIRECCION</th>
+                            <th>RTN</th>
+                            <th>TELEFONO</th>
+                            <th>CORREO</th>
+                            <th>CONTACTO</th>
+                            <th>FECHA DE CREACION</th>
+                            <th>ESTADO</th>
+                            
+                        </tr>
+
+                    </thead>
+                 </table>
+
+            </div>
+            
+        </div>
+    </div>
+    
+   
+</body>
+</html>
