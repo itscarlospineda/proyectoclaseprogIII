@@ -62,7 +62,8 @@ app.get('/', function(req, res) {
 //    res.render('usuario');
 //    res.render('tipoproducto');
 //    res.render('producto');
-    res.render('formapago');
+//    res.render('formapago');
+    res.render('index');
 });
 
 app.listen(port, function () {
